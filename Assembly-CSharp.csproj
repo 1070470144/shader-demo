@@ -61,12 +61,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Other\BookTurningEffect\BookTurningEffect.shader" />
+    <None Include="Assets\Shader\ShaderStudy\Chapter6\Chapter6-DiffuseVertexLevel.shader" />
     <None Include="Assets\Shader\Other\VolumeCloud\VolumeCloud.shader" />
     <None Include="Assets\Shader\ShaderStudy\Chapter3\Chapter3-ShaderLabProperties.shader" />
     <None Include="Assets\Shader\Other\XRay\XRay.shader" />
     <None Include="Assets\Shader\ShaderStudy\Chapter12\Chapter12-BrightnessSaturationAndContrast.shader" />
+    <None Include="Assets\Shader\ShaderStudy\Chapter6\Chapter6-HalfLambert.shader" />
     <None Include="Assets\Shader\ShaderStudy\Chapter5\Chapter5-SimpleShader.shader" />
     <None Include="Assets\Shader\Other\CutEffect\CutEffect.shader" />
+    <None Include="Assets\Shader\ShaderStudy\Chapter5\Chapter-FalseColor.shader" />
+    <None Include="Assets\Shader\ShaderStudy\Chapter6\Chapter6-DiffusePixeLevel.shader" />
+    <None Include="Assets\Shader\ShaderStudy\Chapter6\Chapter6-SpecularVertexLevel.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
