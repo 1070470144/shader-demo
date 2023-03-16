@@ -16,6 +16,7 @@ Shader "ShaderDemo/Chapter 8/AlphaBlend"
             Tags{ "LightMode" = "ForwardBase"}
 
             ZWrite Off
+            //https://docs.unity3d.com/cn/current/Manual/SL-Blend.html
             Blend SrcAlpha OneMinusSrcAlpha
 
             CGPROGRAM
@@ -61,7 +62,6 @@ Shader "ShaderDemo/Chapter 8/AlphaBlend"
                 fixed3 worldLightDir = normalize(UnityWorldSpaceLightDir(i.worldPos));
 
                 fixed4 texColor = tex2D(_MainTex,i.uv);
-
 
                 fixed3  albedo = texColor.rgb * _Color.rgb;
 
